@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0%;
+        padding: 0;
+        font-family: sans-serif;
+        text-align: center;
+        background-image: linear-gradient(
+          to right top,
+          #745868,
+          #675465,
+          #5a5061,
+          #4f4c5b,
+          #454753,
+          #49515f,
+          #4c5b6b,
+          #4e6676,
+          #588597,
+          #5fa6b6,
+          #6ac8d0,
+          #7cebe4
+        );
+      }
+      .holy-grail header {
+        padding: 20px;
+      }
+      .holy-grail footer {
+        padding: 20px;
+      }
+      .holy-grail-content {
+        padding: 20px;
+      }
+      .holy-grail-body {
+        padding: 20px;
+      }
+      .hg-sidebar {
+        padding: 20px;
+      }
+      .holy-grail header {
+        background-image: linear-gradient(
+          135deg,
+          #a9cfd6,
+          #92c2c5,
+          #7db5b1,
+          #6ba89b,
+          #5d9a84,
+          #50917f,
+          #44887b,
+          #377f76,
+          #34777d,
+          #3e6e7e,
+          #4b6478,
+          #545b6d
+        );
+      }
+      .holy-grail footer {
+        background-image: linear-gradient(
+          135deg,
+          #a9cfd6,
+          #92c2c5,
+          #7db5b1,
+          #6ba89b,
+          #5d9a84,
+          #50917f,
+          #44887b,
+          #377f76,
+          #34777d,
+          #3e6e7e,
+          #4b6478,
+          #545b6d
+        );
+      }
+      .hg-sidebar {
+        background-image: linear-gradient(
+          to right top,
+          #b1d6a9,
+          #9ecb99,
+          #8ac08b,
+          #76b67c,
+          #60ab6f,
+          #42a37c,
+          #229b87,
+          #00918e,
+          #0d839c,
+          #437398,
+          #606287,
+          #6c546d
+        );
+      }
+      .holy-grail-content {
+        color: #f5f0f0;
+        text-shadow: 0 0 7px #84b1b1, 0 0 10px rgb(238, 243, 243),
+          0 0 21px #f3e3e3, 0 0 42px rgb(52, 121, 121), 0 0 82px rgb(83, 9, 50),
+          0 0 92px rgb(220, 240, 216), 0 0 102px rgb(192, 194, 216),
+          0 0 15px rgb(221, 221, 230);
+      }
+      .holy-grail {
+        min-height: 100vh;
+      }
+      .holy-grail {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+      }
+      .holy-grail-body {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+      }
+      .holy-grail-content {
+        flex: 1 1 auto;
+      }
+      @media (min-width: 768px) {
+        .holy-grail-sidebar-1 {
+          order: -1;
+        }
+        .holy-grail-body {
+          flex-direction: row;
+        }
+        .hg-sidebar {
+          flex: 0 0 260px;
+        }
+      }
+      .nav ul {
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+      .nav > ul a {
+        color: black;
+        text-shadow: 0 0 7px #84b1b1, 0 0 10px rgb(238, 243, 243),
+          0 0 21px #f3e3e3, 0 0 42px rgb(52, 121, 121), 0 0 82px rgb(83, 9, 50),
+          0 0 92px rgb(220, 240, 216), 0 0 102px rgb(192, 194, 216),
+          0 0 15px rgb(221, 221, 230);
+        text-decoration: none;
+      }
+
+      .nav > ul a:hover {
+        color: #152db6;
+      }
+      button {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1.5px solid;
+        border-radius: 12px;
+        color: #00918e;
+        background-color: #a7a7b4;
+      }
+      button:hover {
+        color: #0f0f0f;
+      }
+    </style>
+  </head>
+  <body class="holy-grail">
+    <header>
+      <nav class="nav">
+        <ul>
+          <a href="#">HOME</a>
+          <a href="#">CONTACT</a>
+          <a href="#">HELP ME</a>
+          <a href="#">ABOUT AS</a>
+          <a href="#"><button>Search</button></a>
+        </ul>
+      </nav>
+    </header>
+    <div class="holy-grail-body">
+      <section class="holy-grail-content">
+        <p>Main Content</p>
+        <h1>Hey Guys I Am Priya Kumari</h1>
+      </section>
+      <div class="holy-grail-sidebar-1 hg-sidebar">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+          maiores dolor ea nemo tenetur reprehenderit corporis ut laboriosam
+          cum, illum labore ullam possimus explicabo velit est. Consequuntur
+          tempora voluptate distinctio esse nihil, facilis sed.
+        </p>
+      </div>
+      <div class="holy-grail-sidebar-2 hg-sidebar">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+          libero id quas explicabo! Praesentium earum labore, cumque optio
+          ducimus voluptatibus laborum iste suscipit, voluptatem magni rerum vel
+          minima, quod omnis.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
